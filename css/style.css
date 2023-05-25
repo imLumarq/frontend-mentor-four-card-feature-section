@@ -1,0 +1,36 @@
+:root {
+  /*Colors*/
+
+  /*Primary*/
+
+  --calculator-accent: hsl(212, 86%, 64%);
+  --karma-accent: hsl(34, 97%, 64%);
+  --supervisor-accent: hsl(180, 62%, 55%);
+  --team-builder-accent: hsl(0, 78%, 62%);
+
+  /*Neutral*/
+
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --very-light-gray: hsl(0, 0%, 98%);
+
+  /*Typography*/
+
+  /*Body Copy*/
+
+  /*15px*/
+  --font-size: 0.9375rem;
+
+  /*Fonts*/
+
+  --font-family: "Poppins", sans-serif;
+  --weight-200: 200;
+  --weight-400: 400;
+  --weight-600: 600;
+}
+
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
