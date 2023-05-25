@@ -34,3 +34,140 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+  color-scheme: light only;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
+html,
+body,
+main {
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-div {
+  padding: 10%;
+}
+
+.heading-section {
+  text-align: center;
+}
+
+.heading-section h1 {
+  font-weight: var(--weight-200);
+  margin-bottom: 1rem;
+}
+
+.heading-section span {
+  display: block;
+  font-weight: var(--weight-600);
+}
+
+.content-div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  padding: 10%;
+}
+
+.content-div div {
+  flex: 1;
+}
+
+.team-karma-div {
+  display: grid;
+  gap: 2rem;
+  justify-items: center;
+}
+
+.category {
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px 5px var(--grayish-blue);
+  display: grid;
+  gap: 2rem;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.category p {
+  max-width: 290px;
+}
+
+.category svg {
+  justify-self: end;
+}
+
+.category::before {
+  content: "";
+  height: 2.5%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.supervisor-section::before {
+  background-color: var(--supervisor-accent);
+}
+
+.team-section::before {
+  background-color: var(--team-builder-accent);
+}
+
+.karma-section::before {
+  background-color: var(--karma-accent);
+}
+
+.calculator-section::before {
+  background-color: var(--calculator-accent);
+}
+
+/*650px*/
+@media (min-width: 40.625em) {
+  .heading-div {
+    padding-bottom: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+  }
+
+  .heading-div h1 {
+    font-size: xx-large;
+  }
+
+  .heading-div p {
+    padding: 0 30%;
+  }
+
+  .content-div {
+    padding: 5%;
+    flex-direction: row;
+  }
+
+  .content-div section {
+    padding: 2rem;
+    width: 75%;
+  }
+
+  .supervisor-div {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+/*1441px*/
+@media (min-width: 90.0625em) {
+  .content-div div {
+    max-width: 412px;
+  }
+}
