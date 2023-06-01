@@ -12,8 +12,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -30,9 +28,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/four-card-feature-section-master-W6-UUYJEfL)
-- Live Site URL: [](https://imlumarq.github.io/frontend-mentor-four-card-feature-section)
-- Github Repository: [](https://github.com/imLumarq/frontend-mentor-four-card-feature-section)
+- Solution URL: [https://www.frontendmentor.io/solutions/four-card-feature-section-master-W6-UUYJEfL]
+- Live Site URL: [https://imlumarq.github.io/frontend-mentor-four-card-feature-section]
+- Github Repository: [https://github.com/imLumarq/frontend-mentor-four-card-feature-section]
 
 ## My process
 
